@@ -1,0 +1,28 @@
+{
+  "name": "cypress-visual-tests",
+  "version": "1.0.0",
+  "description": "Cypress Visual Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahlep/cypress-visual-tests.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Visual",
+    "Automation"
+  ],
+  "author": "Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahlep/cypress-visual-tests/issues"
+  },
+  "homepage": "https://github.com/shahlep/cypress-visual-tests#readme",
+  "dependencies": {
+    "cypress": "^4.12.1",
+    "cypress-image-snapshot": "^4.0.1"
+  }
+}
