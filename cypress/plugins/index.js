@@ -15,7 +15,9 @@
 /**
  * @type {Cypress.PluginConfig}
  */
+const { addMatchImagesSnapshot } = require('cypress-image-snapshot')
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  addMatchImagesSnapshot(on,config)
 }
