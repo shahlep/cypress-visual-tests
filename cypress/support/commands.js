@@ -31,3 +31,11 @@ addMatchImageSnapshotCommand({
     customDiffConfig: {threshold: 0.0},
     capture: 'viewport'
 })
+
+Cypress.Commands.add('setResolution', size => {
+    if (Cypress._isArray) {
+        cy.viewport(size[0],size[1])
+    } else {
+        cy.viewport(size)
+    }
+})
